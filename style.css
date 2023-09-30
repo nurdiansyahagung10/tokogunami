@@ -1,0 +1,184 @@
+body{
+    background-color: #FBF0B2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    display: block;
+    overflow-x: hidden;
+}
+
+.produk-kategori1{
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 10px ;
+}
+.produk-kategori2{
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 10px ;
+}
+.produk-kategori3{
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 10px ;
+}
+.produk-kategori4{
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 10px ;
+}
+.produk-kategori5{
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 10px ;
+}
+.hidden{
+    height: 500px;
+}
+
+
+.image-header img {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+}
+
+.subheading{
+    font-weight: 300;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.produk .popular h3{
+    font-size: 17px;
+}
+
+.popular i{
+    font-size: 2.5rem;
+    color: #FFD3B4;
+}
+
+.btn i{
+    font-size: 2.3rem;
+    color: black;
+}
+
+.produk-popular .card-product{
+    width: 240px;
+}
+
+.produk-popular .btn-card{
+    justify-content:space-between;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.detail-produk .label{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detail-produk a{
+    border: 2px solid #FFD3B4;
+    font-size: 1.6rem;
+    
+}
+
+.detail-produk a:hover{
+    background-color: #FFD3B4;
+    color: #000000;
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+}
+
+.card-body{
+    height: 150px;
+    width: 100%;
+}
+
+
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 994px) {  
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 40px;
+    }  
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+
+    .box{
+        height: 250px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {  
+
+.popular i{
+    font-size: 3rem;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.swiper-button-disabled {
+  display: block !important; /* Tampilkan tombol navigasi */
+}
+
+.btn i{
+    font-size: 3rem;
+    color: black;
+}
+
+}
+@media screen and (max-width: 994px) {  
+.navbar-nav{
+    text-align: center;
+}
+
+nav{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+}
